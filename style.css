@@ -1,0 +1,65 @@
+img {
+
+    padding: 5px;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+footer {
+    min-height: 200px;
+}
+
+
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    color: green;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select,
+button {
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 5px orange;
+}
+
+textarea {
+    height: 250px;
+    padding: 5px 4px;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    display: inline-table;
+    height: 45px;
+    width: 150px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    border-left: 2px solid orange;
+    border-right: 1px solid orange;
+    background-color: orange;
+}
+
+li:hover {
+    background-color: navy;
+    border-style: none;
+}
+
+h1 {
+    margin-left: 200px;
+}
+footer{ 
+    min-height: 200px;
+}
